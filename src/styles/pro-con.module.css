@@ -1,0 +1,140 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #f9fafb;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 4px 0 0 0;
+}
+
+.content {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+}
+
+.text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.pros,
+.cons {
+  flex: 1;
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+}
+
+.pros p, .cons p {
+  color: white;
+}
+
+.pros {
+  background: var(--pros);
+}
+
+.cons {
+  background: var(--cons);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.heading h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.iconWrapper {
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pros .iconWrapper {
+  color: var(--pros);
+}
+
+.cons .iconWrapper {
+  color: var(--cons);
+}
+
+
+
+body {
+    overflow: auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.listIcon {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+}

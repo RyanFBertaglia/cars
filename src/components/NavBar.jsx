@@ -9,13 +9,13 @@ export default function Navbar() {
         <div className={styles.navLogo}>
           <div className={styles.logoCircle}>
             <svg
-              style={{ width: "16px", height: "16px", color: "white" }}
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-            </svg>
+            style={{ width: "18px", height: "18px", color: "white" }}
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M3 13l1-3c.2-.6.8-1 1.4-1h13.2c.6 0 1.2.4 1.4 1l1 3v6c0 .6-.4 1-1 1h-1c-.6 0-1-.4-1-1v-1H6v1c0 .6-.4 1-1 1H4c-.6 0-1-.4-1-1v-6zm3.5 4a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM6.9 10L6 13h12l-.9-3H6.9z" />
+          </svg>
+
           </div>
         </div>
       </Link>
@@ -29,6 +29,9 @@ export default function Navbar() {
         </Link>
         <Link to="/saiba-mais" className={`${styles.navLink} navLink`}>
           Saiba Mais
+        </Link>
+        <Link to="/pro-con" className={`${styles.navLink} navLink`}>
+          Prós e Contras
         </Link>
       </div>
     </nav>
