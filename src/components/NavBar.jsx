@@ -24,8 +24,8 @@ export default function Navbar() {
         <Link to="/" className={`${styles.navLink} navLink`}>
           Home
         </Link>
-        <Link to="/noticias" className={`${styles.navLink} navLink`}>
-          Últimas Notícias
+        <Link to="/etica" className={`${styles.navLink} navLink`}>
+          Questão Ética
         </Link>
         <Link to="/saiba-mais" className={`${styles.navLink} navLink`}>
           Saiba Mais
