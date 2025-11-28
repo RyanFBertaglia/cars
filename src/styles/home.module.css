@@ -9,9 +9,14 @@
     to { transform: translateX(0); opacity: 1; }
 }
 
+*{
+    overflow-y: hidden;
+}
+
 .container {
     min-height: 100vh;
     background: var(--fundo);
+    overflow-y: hidden;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 

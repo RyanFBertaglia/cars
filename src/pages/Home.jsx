@@ -33,7 +33,7 @@ export default function Home() {
             </h1>
             
             <p className={`${styles.subtitle} subtitleSmall`}>
-              Acompanhe nesse site as últimas notícias do mundo relacionadas ao uso de IA no meio automobilistico.
+              Acompanhe nesse site um pouco mais sobre assuntos relacionados ao uso de IA no meio automobilistico.
             </p>
           </div>
           
@@ -47,9 +47,9 @@ export default function Home() {
             
             <button 
               className={`${styles.btnSecondary} btnSecondary btnFull`}
-              onClick={() => navigate('/noticias')}
+              onClick={() => navigate('/etica')}
             >
-              Últimas notícias
+              Questão Éticas
               <svg style={{width: '16px', height: '16px'}} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
