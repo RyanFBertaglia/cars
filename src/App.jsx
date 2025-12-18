@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Noticias from './pages/Noticias';
+import Etica from './pages/Etica';
 import SaibaMais from './pages/SaibaMais';
 import ProCon from './pages/ProCon';
 
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cars" element={<Home />} />
-        <Route path="/noticias" element={<Noticias />} />
+        <Route path="/etica" element={<Etica />} />
         <Route path="/saiba-mais" element={<SaibaMais />} />
         <Route path="/pro-con" element={<ProCon />} />
       </Routes>
